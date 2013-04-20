@@ -36,8 +36,10 @@ footer {
         border-top-style: solid;
         border-top-color: rgb(60, 44, 4);
 }
-body {
+html,body {
 	line-height: 1;
+	background:none repeat;scroll 0% 0% rgb(254,252,246);
+	
 }
 ol, ul {
 	list-style: none;
