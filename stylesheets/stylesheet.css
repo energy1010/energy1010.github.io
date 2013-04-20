@@ -24,8 +24,17 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+header, hgroup, menu, nav, section {
 	display: block;
+}
+
+footer {
+    margin: 0px auto;
+    width: 980px;
+    border-top: 5px solid rgb(60, 44, 4);
+        border-top-width: 5px;
+        border-top-style: solid;
+        border-top-color: rgb(60, 44, 4);
 }
 body {
 	line-height: 1;
